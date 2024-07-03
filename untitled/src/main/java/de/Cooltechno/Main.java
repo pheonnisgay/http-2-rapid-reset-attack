@@ -18,7 +18,7 @@ public class Main {
 
         Scanner number = new Scanner(System.in);
         System.out.println("How Many Requests Do You Wanna Send: ");
-        int NumberOfRequests = Integer.parseInt(Port.nextLine());
+        int NumberOfRequests = Integer.parseInt(number.nextLine());
 
         try {
             // Create an SSL socket to the target host
